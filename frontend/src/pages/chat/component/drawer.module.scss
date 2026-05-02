@@ -1,0 +1,31 @@
+﻿.drawer {
+  background: rgba(255, 255, 255, 0.72);
+  border-top-left-radius: 28px;
+  height: 100vh;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  padding: 12px 0;
+  border-left: 1px solid var(--app-border);
+  backdrop-filter: blur(18px);
+  display: flex;
+  flex-direction: column;
+
+  .drawer__header {
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+
+    .drawer__title {
+      flex-grow: 1;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--app-main-text);
+    }
+  }
+
+  .drawer__content {
+    padding: 12px 30px;
+    overflow: auto;
+  }
+}

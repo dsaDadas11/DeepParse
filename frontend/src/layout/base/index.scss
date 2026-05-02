@@ -1,0 +1,99 @@
+.base-layout {
+  padding-left: 256px;
+}
+
+.base-layout__sidebar {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 256px;
+  background: linear-gradient(180deg, rgba(23, 23, 23, 0.98), rgba(23, 23, 23, 0.94));
+  display: flex;
+  flex-direction: column;
+  color: var(--app-sidebar-text);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+
+  .base-layout__sidebar-main {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+  }
+
+  .base-layout__sidebar-main-content {
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: auto;
+  }
+}
+
+.base-layout__logo {
+  padding: 18px 14px 12px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: 8px 10px 0;
+  border-radius: 18px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+
+  .title {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+}
+
+.base-layout__nav-header {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  padding: 10px 14px;
+  border-radius: 16px;
+  margin: 0 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.08);
+    transform: translateY(-1px);
+  }
+
+  .base-layout__nav-header-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+  }
+
+  .base-layout__nav-header-title {
+    font-size: 14px;
+    color: var(--app-sidebar-text);
+    font-weight: 600;
+  }
+}
+
+.base-layout__content {
+  min-height: 100vh;
+  color: var(--app-main-text);
+}

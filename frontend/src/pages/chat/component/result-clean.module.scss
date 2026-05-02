@@ -1,0 +1,71 @@
+.chat-message-result {
+  .chat-message-result__think {
+    color: var(--app-subtle-text);
+    border-left: 2px solid var(--app-border-strong);
+    padding-left: 12px;
+    margin-bottom: 14px;
+  }
+
+  .chat-message-result__md {
+    :global {
+      .refrence-token {
+        color: var(--ant-color-primary);
+        font-weight: 700;
+      }
+    }
+  }
+
+  .chat-message-result__actions {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    .date {
+      margin-right: 8px;
+      color: var(--app-subtle-text);
+      font-size: 12px;
+    }
+  }
+
+  .chat-message-result__quick-reply {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 100%;
+
+    .item {
+      border-radius: 18px;
+      border: 1px solid var(--app-border);
+      box-shadow: none;
+      background: rgba(255, 255, 255, 0.84);
+      max-width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: 42px;
+
+      .text {
+        text-align: left;
+        flex-grow: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: var(--app-main-text);
+        font-size: 13px;
+      }
+
+      .arrow {
+        flex-shrink: 0;
+        color: var(--app-subtle-text);
+        font-size: 10px;
+      }
+    }
+  }
+
+  .chat-message-result__error {
+    color: var(--ant-color-error);
+  }
+}

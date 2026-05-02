@@ -1,0 +1,19 @@
+﻿{
+    "checked_at":  "2026-04-11T17:43:58.6718797+08:00",
+    "user_id":  "u_student_finance_demo",
+    "source_dir":  "/app/sample_data/pdfs",
+    "source_file_count":  70,
+    "completed_file_count":  70,
+    "missing_file_count":  0,
+    "extra_db_file_count":  0,
+    "index_exists":  true,
+    "doc_count":  12060,
+    "action":  "skip",
+    "reason":  "Corpus is already prepared.",
+    "missing_files":  [
+
+                      ],
+    "extra_db_files":  [
+
+                       ]
+}

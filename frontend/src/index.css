@@ -1,0 +1,60 @@
+:root {
+  --app-bg: #f7f7f8;
+  --app-panel: rgba(255, 255, 255, 0.9);
+  --app-panel-strong: #ffffff;
+  --app-border: rgba(32, 33, 35, 0.08);
+  --app-border-strong: rgba(32, 33, 35, 0.14);
+  --app-sidebar: #171717;
+  --app-sidebar-text: rgba(255, 255, 255, 0.88);
+  --app-sidebar-muted: rgba(255, 255, 255, 0.58);
+  --app-main-text: #202123;
+  --app-subtle-text: #6b7280;
+  --app-shadow: 0 16px 40px rgba(15, 23, 42, 0.07);
+  --app-green-soft: rgba(16, 163, 127, 0.12);
+  --app-green-border: rgba(16, 163, 127, 0.24);
+
+  background-color: var(--app-bg);
+  font-size: 14px;
+  line-height: 1.5;
+  font-family:
+    "Segoe UI",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--app-main-text);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f7f7f8 0%, #f3f4f6 100%);
+  color: var(--app-main-text);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.scrollbar-style {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(32, 33, 35, 0.16) transparent;
+}
+.scrollbar-style::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar-style::-webkit-scrollbar-thumb {
+  background: rgba(32, 33, 35, 0.16);
+  border-radius: 999px;
+}

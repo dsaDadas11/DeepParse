@@ -1,0 +1,106 @@
+﻿.chat-page {
+  padding: 28px 40px 12px;
+  margin: 0 auto;
+  max-width: 980px;
+
+  .chat-page__header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: var(--app-subtle-text);
+    margin-bottom: 18px;
+
+    .chat-page__header-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 70%;
+    }
+  }
+
+  .chat-page__empty {
+    min-height: calc(100vh - 280px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 24px 0 48px;
+  }
+
+  .chat-page__eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+  }
+
+  .chat-page__hero {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: var(--app-main-text);
+  }
+
+  .chat-page__subtitle {
+    margin: 0;
+    max-width: 720px;
+    color: var(--app-subtle-text);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .chat-page__starters {
+    width: 100%;
+    max-width: 760px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 12px;
+  }
+
+  .chat-page__starter {
+    text-align: left;
+    border: 1px solid var(--app-border);
+    background: var(--app-panel);
+    border-radius: 22px;
+    padding: 18px;
+    color: var(--app-main-text);
+    box-shadow: var(--app-shadow);
+    cursor: pointer;
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      border-color: var(--app-green-border);
+      background: rgba(255, 255, 255, 0.96);
+    }
+  }
+}
+
+.chat-page__drawer-modal {
+  :global {
+    .ant-drawer-content {
+      background: #f7f7f8;
+    }
+
+    .ant-drawer-header {
+      background: #f7f7f8;
+      border-bottom: 1px solid var(--app-border);
+    }
+
+    .ant-drawer-body {
+      padding: 20px 24px 28px;
+    }
+  }
+}

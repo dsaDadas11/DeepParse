@@ -1,0 +1,83 @@
+.repository-page {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  padding: 18px 40px;
+  box-sizing: border-box;
+  max-width: 1400px;
+
+  .repository-page__header {
+    padding-top: 28px;
+    padding-bottom: 22px;
+
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      color: var(--app-main-text);
+    }
+
+    .desc {
+      font-size: 16px;
+      color: var(--app-subtle-text);
+    }
+  }
+
+  .repository-page__body {
+    background-color: var(--app-panel);
+    padding: 18px;
+    border-radius: 28px;
+    border: 1px solid var(--app-border);
+    box-shadow: var(--app-shadow);
+
+    .header {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    :global {
+      .ant-input-affix-wrapper,
+      .ant-btn,
+      .ant-modal-content {
+        border-radius: 16px;
+      }
+
+      .ant-table {
+        background: transparent;
+      }
+
+      .ant-table-wrapper .ant-table-thead > tr > th {
+        background: rgba(32, 33, 35, 0.03);
+        color: var(--app-subtle-text);
+        border-bottom: 1px solid var(--app-border);
+      }
+
+      .ant-table-wrapper .ant-table-tbody > tr > td {
+        border-bottom: 1px solid rgba(32, 33, 35, 0.06);
+        background: transparent;
+      }
+
+      .ant-table-wrapper .ant-table-tbody > tr:hover > td {
+        background: rgba(16, 163, 127, 0.04);
+      }
+    }
+  }
+
+  .repository-page__file-name {
+    color: var(--app-main-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 6px;
+      vertical-align: -0.25em;
+    }
+  }
+}

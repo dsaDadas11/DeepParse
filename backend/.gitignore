@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+key.txt
+app/service/core/storage/
+app/__pycache__/
+app/**/__pycache__/
+app/service/ragflow/rag/res/*

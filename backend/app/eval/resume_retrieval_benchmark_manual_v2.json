@@ -1,0 +1,818 @@
+[
+  {
+    "id": "resume_ret_001",
+    "case_type": "law_article_lookup",
+    "question": "我要核对《民法典》总则开篇条文，请直接定位到“第一条”所在原文位置。",
+    "expected_documents": [
+      "中华人民共和国民法典_20200528.pdf"
+    ],
+    "expected_any_phrases": [
+      "第一条",
+      "民法典"
+    ]
+  },
+  {
+    "id": "resume_ret_002",
+    "case_type": "law_article_lookup",
+    "question": "请在《民法典》里定位“第七条 诚实信用原则”的原文，不要泛泛解释。",
+    "expected_documents": [
+      "中华人民共和国民法典_20200528.pdf"
+    ],
+    "expected_any_phrases": [
+      "第七条",
+      "诚实信用"
+    ]
+  },
+  {
+    "id": "resume_ret_003",
+    "case_type": "law_article_lookup",
+    "question": "我要引用民事纠纷适用习惯的法条，请定位《民法典》第十条原文。",
+    "expected_documents": [
+      "中华人民共和国民法典_20200528.pdf"
+    ],
+    "expected_any_phrases": [
+      "第十条",
+      "可以适用习惯"
+    ]
+  },
+  {
+    "id": "resume_ret_004",
+    "case_type": "law_effective_date_lookup",
+    "question": "我只记得这是一份程序法且文件名里带8位数字日期，想核对的是当前样本库中的现行版本（日期为20230901）；请在避免与其他实体法混淆的前提下精准定位该文件。",
+    "expected_documents": [
+      "中华人民共和国民事诉讼法_20230901.pdf"
+    ],
+    "expected_any_phrases": [
+      "民事诉讼法",
+      "20230901"
+    ]
+  },
+  {
+    "id": "resume_ret_005",
+    "case_type": "law_article_lookup",
+    "question": "刑法适用要精确，请定位《刑法》中的“第一条”原文段落。",
+    "expected_documents": [
+      "中华人民共和国刑法_20201226.pdf"
+    ],
+    "expected_any_phrases": [
+      "第一条",
+      "刑法"
+    ]
+  },
+  {
+    "id": "resume_ret_006",
+    "case_type": "law_version_lookup",
+    "question": "劳动争议合规审查，请给我《劳动合同法》20121228版本原文，并尽量定位到总则中关于适用范围的完整句。",
+    "expected_documents": [
+      "中华人民共和国劳动合同法_20121228.pdf"
+    ],
+    "expected_any_phrases": [
+      "中华人民共和国境内的企业、个体经济组织、民办非企业单位等组织",
+      "建立劳动关系"
+    ]
+  },
+  {
+    "id": "resume_ret_007",
+    "case_type": "law_version_lookup",
+    "question": "网络合规备查，请定位《网络安全法》20251028版本原文，并指向总则里关于网络运营者的条文句段。",
+    "expected_documents": [
+      "中华人民共和国网络安全法_20251028.pdf"
+    ],
+    "expected_any_phrases": [
+      "，必须遵守法律、行政法规",
+      "履行网络安全保护义务"
+    ]
+  },
+  {
+    "id": "resume_ret_008",
+    "case_type": "law_version_lookup",
+    "question": "治安处罚条款要落地，请定位《治安管理处罚法》20250627版本，并命中总则首条关于立法目的与维护秩序的完整表述。",
+    "expected_documents": [
+      "中华人民共和国治安管理处罚法_20250627.pdf"
+    ],
+    "expected_any_phrases": [
+      "维护社会治安秩序",
+      "保障公共安全"
+    ]
+  },
+  {
+    "id": "resume_ret_009",
+    "case_type": "law_comparison_lookup",
+    "question": "做税法体系交叉核验时，我需要同时命中上位法与配套规范：请并行定位“法律文本（日期为20241225）+实施条例文本（日期为20251225）”，并注意不要误召回其他含“税法/条例”字样的文件。",
+    "expected_documents": [
+      "中华人民共和国增值税法_20241225.pdf",
+      "中华人民共和国增值税法实施条例_20251225.pdf"
+    ],
+    "expected_any_phrases": [
+      "增值税法",
+      "实施条例"
+    ]
+  },
+  {
+    "id": "resume_ret_010",
+    "case_type": "law_comparison_lookup",
+    "question": "监察业务要核对法律层级，请同时给我《监察法》和《监察法实施条例》。",
+    "expected_documents": [
+      "中华人民共和国监察法_20241225.pdf",
+      "中华人民共和国监察法实施条例_20250601.pdf"
+    ],
+    "expected_any_phrases": [
+      "监察法",
+      "监察法实施条例"
+    ]
+  },
+  {
+    "id": "resume_ret_011",
+    "case_type": "version_diff_lookup",
+    "question": "我要做同名规范的新旧文本差异核对：请一次性返回不带日期后缀的基础文本与带“20260203”后缀的现行文本，并确保两份都属于“中华人民共和国自然保护区条例”。",
+    "expected_documents": [
+      "中华人民共和国自然保护区条例.pdf",
+      "中华人民共和国自然保护区条例_20260203.pdf"
+    ],
+    "expected_any_phrases": [
+      "自然保护区条例",
+      "20260203"
+    ]
+  },
+  {
+    "id": "resume_ret_012",
+    "case_type": "procedure_table_lookup",
+    "question": "我只要办事表单，不要长篇说明，请定位《税务行政许可申请表》原文件。",
+    "expected_documents": [
+      "税务行政许可申请表.pdf"
+    ],
+    "expected_any_phrases": [
+      "税务行政许可申请表",
+      "申请表"
+    ]
+  },
+  {
+    "id": "resume_ret_013",
+    "case_type": "procedure_table_lookup",
+    "question": "企业所得税年报申报要填表，请直接给《企业所得税年度纳税申报表》。",
+    "expected_documents": [
+      "中华人民共和国企业所得税年度纳税申报表.pdf"
+    ],
+    "expected_any_phrases": [
+      "企业所得税年度纳税申报表",
+      "纳税申报"
+    ]
+  },
+  {
+    "id": "resume_ret_014",
+    "case_type": "procedure_guide_lookup",
+    "question": "基金服务机构注册要补件，请定位对应《行政许可事项服务指南》。",
+    "expected_documents": [
+      "【行政许可事项服务指南】基金服务机构注册.pdf"
+    ],
+    "expected_any_phrases": [
+      "基金服务机构注册",
+      "行政许可事项服务指南"
+    ]
+  },
+  {
+    "id": "resume_ret_015",
+    "case_type": "procedure_guide_lookup",
+    "question": "期货公司许可备案走告知承诺制，给我对应办事指南原文。",
+    "expected_documents": [
+      "期货公司行政许可、备案相关证明事项告知承诺制办事指南.pdf"
+    ],
+    "expected_any_phrases": [
+      "告知承诺制",
+      "办事指南"
+    ]
+  },
+  {
+    "id": "resume_ret_016",
+    "case_type": "procedure_guide_lookup",
+    "question": "专利申请流程需要精确步骤，请定位《专利申请受理和审批办事指南》。",
+    "expected_documents": [
+      "专利申请受理和审批办事指南.pdf"
+    ],
+    "expected_any_phrases": [
+      "专利申请受理和审批办事指南",
+      "专利申请"
+    ]
+  },
+  {
+    "id": "resume_ret_017",
+    "case_type": "case_id_lookup",
+    "question": "请定位指导性案例228号原文，并能命中“监护权纠纷”关键词。",
+    "expected_documents": [
+      "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例228号",
+      "监护权纠纷"
+    ]
+  },
+  {
+    "id": "resume_ret_018",
+    "case_type": "case_id_lookup",
+    "question": "请定位指导性案例229号原文，并命中“探望权纠纷”。",
+    "expected_documents": [
+      "指导性案例229号：沙某某诉袁某某探望权纠纷案.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例229号",
+      "探望权纠纷"
+    ]
+  },
+  {
+    "id": "resume_ret_019",
+    "case_type": "case_id_lookup",
+    "question": "请检索指导性案例272号，并定位到“危险驾驶”相关文本。",
+    "expected_documents": [
+      "指导性案例272号：艾某等危险驾驶案.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例272号",
+      "危险驾驶"
+    ]
+  },
+  {
+    "id": "resume_ret_020",
+    "case_type": "case_id_lookup",
+    "question": "请检索指导性案例276号，并命中“发明专利权无效行政纠纷”。",
+    "expected_documents": [
+      "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例276号",
+      "发明专利权无效行政纠纷"
+    ]
+  },
+  {
+    "id": "resume_ret_021",
+    "case_type": "case_id_lookup",
+    "question": "请检索指导性案例278号，并定位到“恶意提起知识产权诉讼损害责任纠纷”。",
+    "expected_documents": [
+      "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例278号",
+      "恶意提起知识产权诉讼",
+      "损害责任纠纷"
+    ]
+  },
+  {
+    "id": "resume_ret_022",
+    "case_type": "case_id_lookup",
+    "question": "请检索指导性案例279号，并命中“计算机软件著作权纠纷”。",
+    "expected_documents": [
+      "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例279号",
+      "计算机软件著作权"
+    ]
+  },
+  {
+    "id": "resume_ret_023",
+    "case_type": "contract_template_lookup",
+    "question": "请定位住建租赁场景的合同模板，明确要“市场监管总局2025版”的城镇房屋租赁合同。",
+    "expected_documents": [
+      "城镇房屋租赁合同（市场监管总局2025版）_2340996b.pdf"
+    ],
+    "expected_any_phrases": [
+      "城镇房屋租赁合同",
+      "2025版"
+    ]
+  },
+  {
+    "id": "resume_ret_024",
+    "case_type": "contract_template_lookup",
+    "question": "我要北京共有产权房现房交易模板，请精确到“北京市2023版”。",
+    "expected_documents": [
+      "北京市共有产权住房现房买卖合同（北京市2023版）_8b3d79f0.pdf"
+    ],
+    "expected_any_phrases": [
+      "共有产权住房现房买卖合同",
+      "北京市2023版"
+    ]
+  },
+  {
+    "id": "resume_ret_025",
+    "case_type": "contract_template_lookup",
+    "question": "请给北京市限额以下小型工程施工合同模板，版本必须是2023版。",
+    "expected_documents": [
+      "北京市房屋建筑与市政基础设施限额以下小型工程施工合同（北京市2023版）_b285aa3d.pdf"
+    ],
+    "expected_any_phrases": [
+      "限额以下小型工程施工合同",
+      "2023版"
+    ]
+  },
+  {
+    "id": "resume_ret_026",
+    "case_type": "contract_template_lookup",
+    "question": "请定位北京市科技类校外培训服务合同模板，要求命中“2024版”。",
+    "expected_documents": [
+      "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf"
+    ],
+    "expected_any_phrases": [
+      "科技类校外培训服务合同",
+      "2024版"
+    ]
+  },
+  {
+    "id": "resume_ret_027",
+    "case_type": "contract_template_lookup",
+    "question": "请定位甘肃省养老机构服务合同，版本要精确到“甘肃省2024版”。",
+    "expected_documents": [
+      "甘肃省养老机构服务合同（甘肃省2024版）_8377c6f9.pdf"
+    ],
+    "expected_any_phrases": [
+      "养老机构服务合同",
+      "甘肃省2024版"
+    ]
+  },
+  {
+    "id": "resume_ret_028",
+    "case_type": "contract_template_lookup",
+    "question": "请给研学旅游合同示范文本，要求是文旅部+市场监管总局联合的2026版。",
+    "expected_documents": [
+      "研学旅游合同（文化和旅游部、市场监管总局2026版）_ea53524e.pdf"
+    ],
+    "expected_any_phrases": [
+      "研学旅游合同",
+      "2026版",
+      "文化和旅游部",
+      "市场监管总局"
+    ]
+  },
+  {
+    "id": "resume_ret_029",
+    "case_type": "gazette_issue_lookup",
+    "question": "我在做同年度不同期次的立法沿革抽取，请并列检索全国人大常委会公报中“2024年第1期”和“2024年第4期”两份目标文件，避免与其他年份或同类期次混淆。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2024_1_npc.pdf",
+      "全国人民代表大会常务委员会公报2024_4_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2024_1",
+      "2024_4"
+    ]
+  },
+  {
+    "id": "resume_ret_030",
+    "case_type": "gazette_issue_lookup",
+    "question": "我要并列比对2022年公报，请返回全国人大常委会公报第1期和第2期。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2022_1_npc.pdf",
+      "全国人民代表大会常务委员会公报2022_2_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2022_1",
+      "2022_2"
+    ]
+  },
+  {
+    "id": "resume_ret_031",
+    "case_type": "gazette_issue_lookup",
+    "question": "我要并列比对2021年公报，请返回全国人大常委会公报第4期和第5期。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2021_4_npc.pdf",
+      "全国人民代表大会常务委员会公报2021_5_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2021_4",
+      "2021_5"
+    ]
+  },
+  {
+    "id": "resume_ret_032",
+    "case_type": "gazette_issue_lookup",
+    "question": "我要并列比对2023年公报，请返回全国人大常委会公报第3期和第6期。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2023_3_npc.pdf",
+      "全国人民代表大会常务委员会公报2023_6_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2023_3",
+      "2023_6"
+    ]
+  },
+  {
+    "id": "resume_ret_033",
+    "case_type": "gazette_issue_lookup",
+    "question": "单期核对时，请精确返回全国人大常委会公报2019年第2期。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2019_2_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2019_2",
+      "全国人民代表大会常务委员会公报"
+    ]
+  },
+  {
+    "id": "resume_ret_034",
+    "case_type": "local_regulation_lookup",
+    "question": "请检索地方立法《汕头经济特区电动自行车管理条例》并定位20251230版本，同时尽量命中总则中关于部门协同监管机制的句段。",
+    "expected_documents": [
+      "汕头经济特区电动自行车管理条例_20251230.pdf"
+    ],
+    "expected_any_phrases": [
+      "公安机关交通管理部门",
+      "市场监督管理部门"
+    ]
+  },
+  {
+    "id": "resume_ret_035",
+    "case_type": "local_regulation_lookup",
+    "question": "请检索《珠海经济特区民营经济促进条例》，要求命中版本日期20251230。",
+    "expected_documents": [
+      "珠海经济特区民营经济促进条例_20251230.pdf"
+    ],
+    "expected_any_phrases": [
+      "民营经济促进条例",
+      "20251230"
+    ]
+  },
+  {
+    "id": "resume_ret_036",
+    "case_type": "local_regulation_lookup",
+    "question": "请检索《海南自由贸易港安居房建设和管理若干规定》，并定位20260101版本。",
+    "expected_documents": [
+      "海南自由贸易港安居房建设和管理若干规定_20260101.pdf"
+    ],
+    "expected_any_phrases": [
+      "安居房建设和管理若干规定",
+      "20260101"
+    ]
+  },
+  {
+    "id": "resume_ret_037",
+    "case_type": "local_regulation_lookup",
+    "question": "请检索《沈阳市建筑市场管理条例》，要求命中版本日期20260130。",
+    "expected_documents": [
+      "沈阳市建筑市场管理条例_20260130.pdf"
+    ],
+    "expected_any_phrases": [
+      "建筑市场管理条例",
+      "20260130"
+    ]
+  },
+  {
+    "id": "resume_ret_038",
+    "case_type": "standard_lookup",
+    "question": "伤情鉴定要引用标准原文，请定位《人体损伤程度鉴定标准》。",
+    "expected_documents": [
+      "人体损伤程度鉴定标准.pdf"
+    ],
+    "expected_any_phrases": [
+      "人体损伤程度鉴定标准"
+    ]
+  },
+  {
+    "id": "resume_ret_039",
+    "case_type": "regulation_lookup",
+    "question": "建筑行业执业规则核对，请给《中华人民共和国注册建筑师条例》原文。",
+    "expected_documents": [
+      "中华人民共和国注册建筑师条例.pdf"
+    ],
+    "expected_any_phrases": [
+      "注册建筑师条例"
+    ]
+  },
+  {
+    "id": "resume_ret_040",
+    "case_type": "regulation_lookup",
+    "question": "语言文字合规检查，请定位《中华人民共和国国家通用语言文字法》20251227版本，并命中总则中关于民族表述。",
+    "expected_documents": [
+      "中华人民共和国国家通用语言文字法_20251227.pdf"
+    ],
+    "expected_any_phrases": [
+      "少数民族语言文字的使用依据宪法",
+      "民族区域自治法"
+    ]
+  },
+  {
+    "id": "resume_ret_041",
+    "case_type": "procedure_table_extract",
+    "question": "我要结构化抽取：税务行政许可申请表里有哪些核心字段，请先定位原表单文件。",
+    "expected_documents": [
+      "税务行政许可申请表.pdf"
+    ],
+    "expected_any_phrases": [
+      "税务行政许可申请表",
+      "申请表"
+    ]
+  },
+  {
+    "id": "resume_ret_042",
+    "case_type": "procedure_table_extract",
+    "question": "我要做结构化入库，请检索企业所得税年度纳税申报表原件。",
+    "expected_documents": [
+      "中华人民共和国企业所得税年度纳税申报表.pdf"
+    ],
+    "expected_any_phrases": [
+      "企业所得税年度纳税申报表",
+      "纳税申报表"
+    ]
+  },
+  {
+    "id": "resume_ret_043",
+    "case_type": "procedure_table_extract",
+    "question": "请给我基金服务机构注册办事指南，我要从中抽取“申请材料/受理条件/办理时限”表格项。",
+    "expected_documents": [
+      "【行政许可事项服务指南】基金服务机构注册.pdf"
+    ],
+    "expected_any_phrases": [
+      "基金服务机构注册",
+      "办事指南"
+    ]
+  },
+  {
+    "id": "resume_ret_044",
+    "case_type": "procedure_table_extract",
+    "question": "期货公司告知承诺制办事指南请定位，我要结构化提取“证明事项+替代材料”。",
+    "expected_documents": [
+      "期货公司行政许可、备案相关证明事项告知承诺制办事指南.pdf"
+    ],
+    "expected_any_phrases": [
+      "告知承诺制",
+      "办事指南"
+    ]
+  },
+  {
+    "id": "resume_ret_045",
+    "case_type": "procedure_table_extract",
+    "question": "请检索资本项目行政许可事项服务指南，我要抽取办理流程节点。",
+    "expected_documents": [
+      "资本项目行政许可事项服务指南.pdf"
+    ],
+    "expected_any_phrases": [
+      "资本项目行政许可事项服务指南",
+      "流程"
+    ]
+  },
+  {
+    "id": "resume_ret_046",
+    "case_type": "procedure_table_extract",
+    "question": "请定位专利申请受理和审批办事指南，后续我要表格化抽取受理条件与时限。",
+    "expected_documents": [
+      "专利申请受理和审批办事指南.pdf"
+    ],
+    "expected_any_phrases": [
+      "专利申请受理和审批办事指南",
+      "受理"
+    ]
+  },
+  {
+    "id": "resume_ret_047",
+    "case_type": "version_conflict_lookup",
+    "question": "同法不同版本可能冲突，请同时返回《中华人民共和国自然保护区条例》基础版和20260203版。",
+    "expected_documents": [
+      "中华人民共和国自然保护区条例.pdf",
+      "中华人民共和国自然保护区条例_20260203.pdf"
+    ],
+    "expected_any_phrases": [
+      "自然保护区条例",
+      "20260203"
+    ]
+  },
+  {
+    "id": "resume_ret_048",
+    "case_type": "version_conflict_lookup",
+    "question": "我怕引用错层级，请并列检索《增值税法》与《增值税法实施条例》。",
+    "expected_documents": [
+      "中华人民共和国增值税法_20241225.pdf",
+      "中华人民共和国增值税法实施条例_20251225.pdf"
+    ],
+    "expected_any_phrases": [
+      "增值税法",
+      "增值税法实施条例"
+    ]
+  },
+  {
+    "id": "resume_ret_049",
+    "case_type": "version_conflict_lookup",
+    "question": "监察执法合规核对时，请同时返回《监察法》与《监察法实施条例》。",
+    "expected_documents": [
+      "中华人民共和国监察法_20241225.pdf",
+      "中华人民共和国监察法实施条例_20250601.pdf"
+    ],
+    "expected_any_phrases": [
+      "监察法",
+      "监察法实施条例"
+    ]
+  },
+  {
+    "id": "resume_ret_050",
+    "case_type": "version_conflict_lookup",
+    "question": "请检索《全国人大常委会公报》2024年第1期和第4期，用于同主题版本比对。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2024_1_npc.pdf",
+      "全国人民代表大会常务委员会公报2024_4_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2024_1",
+      "2024_4"
+    ]
+  },
+  {
+    "id": "resume_ret_051",
+    "case_type": "version_conflict_lookup",
+    "question": "请检索《全国人大常委会公报》2022年第1期和第2期，避免引用期次冲突。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2022_1_npc.pdf",
+      "全国人民代表大会常务委员会公报2022_2_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2022_1",
+      "2022_2"
+    ]
+  },
+  {
+    "id": "resume_ret_052",
+    "case_type": "same_name_disambiguation",
+    "question": "同名文件去歧义：我只要文件名中带“_20260203”的《中华人民共和国自然保护区条例》版本，不接受不带日期后缀的基础文本，也不要返回任何其他条例。",
+    "expected_documents": [
+      "中华人民共和国自然保护区条例_20260203.pdf"
+    ],
+    "expected_any_phrases": [
+      "自然保护区条例",
+      "20260203"
+    ]
+  },
+  {
+    "id": "resume_ret_053",
+    "case_type": "same_name_disambiguation",
+    "question": "同名文件歧义处理：我要《中华人民共和国自然保护区条例》基础版，不要带日期后缀版本。",
+    "expected_documents": [
+      "中华人民共和国自然保护区条例.pdf"
+    ],
+    "expected_any_phrases": [
+      "自然保护区条例",
+      "基础版"
+    ]
+  },
+  {
+    "id": "resume_ret_054",
+    "case_type": "same_name_disambiguation",
+    "question": "我只要《监察法实施条例》，不要《监察法》正文，请精确定位。",
+    "expected_documents": [
+      "中华人民共和国监察法实施条例_20250601.pdf"
+    ],
+    "expected_any_phrases": [
+      "监察法实施条例",
+      "20250601"
+    ]
+  },
+  {
+    "id": "resume_ret_055",
+    "case_type": "same_name_disambiguation",
+    "question": "我只要《中华人民共和国增值税法实施条例》，不要《增值税法》本体。",
+    "expected_documents": [
+      "中华人民共和国增值税法实施条例_20251225.pdf"
+    ],
+    "expected_any_phrases": [
+      "增值税法实施条例",
+      "20251225"
+    ]
+  },
+  {
+    "id": "resume_ret_056",
+    "case_type": "same_name_disambiguation",
+    "question": "我要全国人大常委会公报2024年第4期，不要第1期，同名公报请去歧义。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2024_4_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2024_4",
+      "公报"
+    ]
+  },
+  {
+    "id": "resume_ret_057",
+    "case_type": "same_name_disambiguation",
+    "question": "我要全国人大常委会公报2022年第2期，不要第1期，请精确返回。",
+    "expected_documents": [
+      "全国人民代表大会常务委员会公报2022_2_npc.pdf"
+    ],
+    "expected_any_phrases": [
+      "2022_2",
+      "公报"
+    ]
+  },
+  {
+    "id": "resume_ret_058",
+    "case_type": "hard_content_lookup",
+    "question": "生产经营单位内部做合规审查时，只知道要核对安全管理机构/人员的职责清单：哪一项同时涉及教育培训记录和应急演练？请定位原文。",
+    "expected_documents": [
+      "中华人民共和国安全生产法_20210610.pdf"
+    ],
+    "expected_any_phrases": [
+      "组织或者参与本单位应急救援演练",
+      "如实记录安全生产教育和培训情况"
+    ],
+    "expected_all_phrases": [
+      "安全生产管理机构以及安全生产管理人员履行下列职责"
+    ]
+  },
+  {
+    "id": "resume_ret_059",
+    "case_type": "hard_content_lookup",
+    "question": "国家机构关系核对时，我只知道要找关于监察机关由人民代表大会产生并接受监督的根本法条款，请定位对应文本。",
+    "expected_documents": [
+      "中华人民共和国宪法（2018年修正文本）_20180311.pdf"
+    ],
+    "expected_any_phrases": [
+      "国家行政机关、监察机关、审判机关、检察机关都由人民代表大会产生",
+      "对它负责，受它监督"
+    ],
+    "expected_all_phrases": [
+      "国家机构实行民主集中制的原则"
+    ]
+  },
+  {
+    "id": "resume_ret_060",
+    "case_type": "hard_content_lookup",
+    "question": "发起一个非营利性会员组织时，筹备期能不能开展正式活动，个人会员和单位会员数量门槛是多少？请定位登记规则原文。",
+    "expected_documents": [
+      "社会团体登记管理条例.pdf"
+    ],
+    "expected_any_phrases": [
+      "筹备期间不得开展筹备以外的活动",
+      "有 50 个以上的个人会员或者 30 个以上的单位会员"
+    ],
+    "expected_all_phrases": [
+      "会员总数不得少于 50 个"
+    ]
+  },
+  {
+    "id": "resume_ret_061",
+    "case_type": "hard_content_lookup",
+    "question": "行政系统内部监督中，发现执法机关该履职未履职、或者问题违法明显不当时，分别应制发什么文书？请定位处理规则。",
+    "expected_documents": [
+      "行政执法监督条例_20251217.pdf"
+    ],
+    "expected_any_phrases": [
+      "行政执法监督督办函",
+      "行政执法监督意见书"
+    ],
+    "expected_all_phrases": [
+      "行政执法监督机构可以制发"
+    ]
+  },
+  {
+    "id": "resume_ret_062",
+    "case_type": "hard_content_lookup",
+    "question": "执法信息化入库时需要给法律、法规、规章建立代码；请定位该行业标准里基本要求与代码结构，不要只返回普通执法监督材料。",
+    "expected_documents": [
+      "行政执法法律法规规章编码规则和数据元.pdf"
+    ],
+    "expected_any_phrases": [
+      "唯一性",
+      "全面性",
+      "稳定性",
+      "可扩展性"
+    ],
+    "expected_all_phrases": [
+      "法律法规规章代码",
+      "文件码",
+      "内容码"
+    ]
+  },
+  {
+    "id": "resume_ret_063",
+    "case_type": "hard_content_lookup",
+    "question": "证券基金机构行政许可材料要先走政务服务平台；如果还涉及两个业务系统，应在什么时候完成填报，并且纸电材料不一致如何处理？",
+    "expected_documents": [
+      "浙江证监局行政许可目录指引.pdf"
+    ],
+    "expected_any_phrases": [
+      "CISP 系统",
+      "FIRST 系统",
+      "纸质资料报送前填报完毕"
+    ],
+    "expected_all_phrases": [
+      "纸质与电子版不一致，我局视为材料不齐备"
+    ]
+  },
+  {
+    "id": "resume_ret_064",
+    "case_type": "normal_lookup",
+    "question": "请检索《指导性案例228号：张某诉李某、刘某监护权纠纷案》。",
+    "expected_documents": [
+      "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例228号",
+      "监护权纠纷"
+    ]
+  },
+  {
+    "id": "resume_ret_065",
+    "case_type": "normal_lookup",
+    "question": "请检索《指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案》。",
+    "expected_documents": [
+      "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf"
+    ],
+    "expected_any_phrases": [
+      "指导性案例279号",
+      "计算机软件著作权"
+    ]
+  }
+]

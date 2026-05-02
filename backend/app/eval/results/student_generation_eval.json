@@ -1,0 +1,1996 @@
+{
+  "summary": {
+    "cases": 35,
+    "answerable_cases": 30,
+    "abstain_cases": 5,
+    "answer_accuracy": 0.8333333333333334,
+    "citation_support_rate": 1.0,
+    "grounded_answer_rate": 0.8333333333333334,
+    "abstain_success_rate": 1.0,
+    "hallucination_rate": 0.0,
+    "rule_answer_rate": 0.8285714285714286,
+    "model_answer_rate": 0.17142857142857143,
+    "avg_latency_ms": 14151.544857142853,
+    "p95_latency_ms": 73257.08,
+    "max_latency_ms": 99393.86,
+    "by_case_type": {
+      "abstain_case": {
+        "cases": 1,
+        "answerable_cases": 0,
+        "abstain_cases": 1,
+        "answer_accuracy": 0.0,
+        "citation_support_rate": 0.0,
+        "grounded_answer_rate": 0.0,
+        "abstain_success_rate": 1.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 5044.16,
+        "p95_latency_ms": 5044.16,
+        "max_latency_ms": 5044.16
+      },
+      "abstain_contract": {
+        "cases": 1,
+        "answerable_cases": 0,
+        "abstain_cases": 1,
+        "answer_accuracy": 0.0,
+        "citation_support_rate": 0.0,
+        "grounded_answer_rate": 0.0,
+        "abstain_success_rate": 1.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 1275.42,
+        "p95_latency_ms": 1275.42,
+        "max_latency_ms": 1275.42
+      },
+      "abstain_doc": {
+        "cases": 2,
+        "answerable_cases": 0,
+        "abstain_cases": 2,
+        "answer_accuracy": 0.0,
+        "citation_support_rate": 0.0,
+        "grounded_answer_rate": 0.0,
+        "abstain_success_rate": 1.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 3737.3050000000003,
+        "p95_latency_ms": 4637.39,
+        "max_latency_ms": 4637.39
+      },
+      "abstain_procedure": {
+        "cases": 1,
+        "answerable_cases": 0,
+        "abstain_cases": 1,
+        "answer_accuracy": 0.0,
+        "citation_support_rate": 0.0,
+        "grounded_answer_rate": 0.0,
+        "abstain_success_rate": 1.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 6539.93,
+        "p95_latency_ms": 6539.93,
+        "max_latency_ms": 6539.93
+      },
+      "case_id_text": {
+        "cases": 6,
+        "answerable_cases": 6,
+        "abstain_cases": 0,
+        "answer_accuracy": 0.8333333333333334,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 0.8333333333333334,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 0.8333333333333334,
+        "model_answer_rate": 0.16666666666666666,
+        "avg_latency_ms": 17064.718333333334,
+        "p95_latency_ms": 73257.08,
+        "max_latency_ms": 73257.08
+      },
+      "comparison_pair_text": {
+        "cases": 1,
+        "answerable_cases": 1,
+        "abstain_cases": 0,
+        "answer_accuracy": 1.0,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 1.0,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 3350.11,
+        "p95_latency_ms": 3350.11,
+        "max_latency_ms": 3350.11
+      },
+      "contract_version_numeric": {
+        "cases": 6,
+        "answerable_cases": 6,
+        "abstain_cases": 0,
+        "answer_accuracy": 0.6666666666666666,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 0.6666666666666666,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 0.6666666666666666,
+        "model_answer_rate": 0.3333333333333333,
+        "avg_latency_ms": 21239.145,
+        "p95_latency_ms": 99393.86,
+        "max_latency_ms": 99393.86
+      },
+      "gazette_pair_numeric": {
+        "cases": 2,
+        "answerable_cases": 2,
+        "abstain_cases": 0,
+        "answer_accuracy": 1.0,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 1.0,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 11.54,
+        "p95_latency_ms": 11.65,
+        "max_latency_ms": 11.65
+      },
+      "law_article_numeric": {
+        "cases": 2,
+        "answerable_cases": 2,
+        "abstain_cases": 0,
+        "answer_accuracy": 0.5,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 0.5,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 0.5,
+        "model_answer_rate": 0.5,
+        "avg_latency_ms": 68124.86499999999,
+        "p95_latency_ms": 90495.04,
+        "max_latency_ms": 90495.04
+      },
+      "law_version_numeric": {
+        "cases": 5,
+        "answerable_cases": 5,
+        "abstain_cases": 0,
+        "answer_accuracy": 1.0,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 1.0,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 583.094,
+        "p95_latency_ms": 1985.46,
+        "max_latency_ms": 1985.46
+      },
+      "procedure_guide_text": {
+        "cases": 3,
+        "answerable_cases": 3,
+        "abstain_cases": 0,
+        "answer_accuracy": 0.6666666666666666,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 0.6666666666666666,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 1.0,
+        "model_answer_rate": 0.0,
+        "avg_latency_ms": 5014.339999999999,
+        "p95_latency_ms": 6795.98,
+        "max_latency_ms": 6795.98
+      },
+      "procedure_table_numeric": {
+        "cases": 2,
+        "answerable_cases": 2,
+        "abstain_cases": 0,
+        "answer_accuracy": 1.0,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 1.0,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 0.5,
+        "model_answer_rate": 0.5,
+        "avg_latency_ms": 7686.14,
+        "p95_latency_ms": 14452.78,
+        "max_latency_ms": 14452.78
+      },
+      "version_pair_numeric": {
+        "cases": 3,
+        "answerable_cases": 3,
+        "abstain_cases": 0,
+        "answer_accuracy": 1.0,
+        "citation_support_rate": 1.0,
+        "grounded_answer_rate": 1.0,
+        "abstain_success_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "rule_answer_rate": 0.6666666666666666,
+        "model_answer_rate": 0.3333333333333333,
+        "avg_latency_ms": 24064.36,
+        "p95_latency_ms": 72176.36,
+        "max_latency_ms": 72176.36
+      }
+    },
+    "strong_semantic_subset": {
+      "cases": 1,
+      "answerable_cases": 1,
+      "abstain_cases": 0,
+      "answer_accuracy": 1.0,
+      "citation_support_rate": 1.0,
+      "grounded_answer_rate": 1.0,
+      "abstain_success_rate": 0.0,
+      "hallucination_rate": 0.0,
+      "rule_answer_rate": 1.0,
+      "model_answer_rate": 0.0,
+      "avg_latency_ms": 3350.11,
+      "p95_latency_ms": 3350.11,
+      "max_latency_ms": 3350.11
+    },
+    "knowledgebase_files": 70,
+    "chunk_count": 12060,
+    "top_k": 5
+  },
+  "cases": [
+    {
+      "id": "resume_gen_001",
+      "case_type": "law_article_numeric",
+      "question": "请回答《民法典》第七条的关键词是什么。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 45754.69,
+      "answer": "最高人民法院关于适用《中华人民共和国民法典》侵权责任编的解释（一）_20240925 第七条 未成年子女造成他人损害,被侵权人请求父母共同 承担侵权责任的,人民法院依 ##1$$",
+      "top_documents": [
+        "最高人民法院关于适用《中华人民共和国民法典》侵权责任编的解释（一）_20240925.pdf",
+        "最高人民法院关于适用《中华人民共和国民法典》婚姻家庭编的解释（二）_20250115.pdf",
+        "城镇房屋租赁合同（市场监管总局2025版）_2340996b.pdf",
+        "北京市房屋建筑与市政基础设施限额以下小型工程施工合同（北京市2023版）_b285aa3d.pdf",
+        "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:article_locate",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "第七条"
+          ],
+          "required_any_groups": [
+            [
+              "民法典",
+              "民法典法典",
+              "民法典法律",
+              "民法典法",
+              "民法典条例",
+              "民法典规定",
+              "民法典办法",
+              "民法典合同",
+              "民法典指南",
+              "民法典申请表",
+              "民法典申报表",
+              "民法典案例",
+              "民法典公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_002",
+      "case_type": "law_article_numeric",
+      "question": "请定位《民法典》第十条并回答其中是否出现“可以适用习惯”。",
+      "expect_abstain": false,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": false,
+      "answer_mode": "model",
+      "citation_count": 1,
+      "latency_ms": 90495.04,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（answer_guard_failed）##1$$\n缺失信息：required_phrase_not_in_evidence:可以适用习惯\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "最高人民法院关于适用《中华人民共和国民法典》婚姻家庭编的解释（二）_20250115.pdf",
+        "城镇房屋租赁合同（市场监管总局2025版）_2340996b.pdf",
+        "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf",
+        "研学旅游合同（文化和旅游部、市场监管总局2026版）_ea53524e.pdf",
+        "北京市房屋建筑与市政基础设施限额以下小型工程施工合同（北京市2023版）_b285aa3d.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:article_locate",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": false,
+        "failures": [
+          "required_phrase_not_in_evidence:可以适用习惯"
+        ],
+        "constraints": {
+          "required_all": [
+            "第十条",
+            "民法典",
+            "可以适用习惯"
+          ],
+          "required_any_groups": [
+            [
+              "民法典",
+              "民法典法典",
+              "民法典法律",
+              "民法典法",
+              "民法典条例",
+              "民法典规定",
+              "民法典办法",
+              "民法典合同",
+              "民法典指南",
+              "民法典申请表",
+              "民法典申报表",
+              "民法典案例",
+              "民法典公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_003",
+      "case_type": "law_version_numeric",
+      "question": "请给《民事诉讼法》现行版本的文件名，并包含版本数字20230901。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 7.73,
+      "answer": "中华人民共和国民事诉讼法_20230901.pdf ##1$$",
+      "top_documents": [
+        "中华人民共和国民事诉讼法_20230901.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "民事诉讼法"
+          ],
+          "required_any_groups": [
+            [
+              "民事诉讼法",
+              "民事诉讼",
+              "民事诉讼法典",
+              "民事诉讼法律",
+              "民事诉讼条例",
+              "民事诉讼规定",
+              "民事诉讼办法",
+              "民事诉讼合同",
+              "民事诉讼指南",
+              "民事诉讼申请表",
+              "民事诉讼申报表",
+              "民事诉讼案例",
+              "民事诉讼公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_004",
+      "case_type": "law_version_numeric",
+      "question": "刑法依据请精确到版本日期，回答时需出现20201226。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1985.46,
+      "answer": "中华人民共和国刑法_20201226.pdf ##1$$",
+      "top_documents": [
+        "中华人民共和国刑法_20201226.pdf",
+        "行政执法法律法规规章编码规则和数据元.pdf",
+        "专利申请受理和审批办事指南.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "【行政许可事项服务指南】基金服务机构注册.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": []
+        }
+      }
+    },
+    {
+      "id": "resume_gen_005",
+      "case_type": "law_version_numeric",
+      "question": "劳动争议法源请直接给《劳动合同法》版本号，答案需含20121228。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 14.48,
+      "answer": "中华人民共和国劳动合同法_20121228.pdf ##1$$",
+      "top_documents": [
+        "中华人民共和国劳动合同法_20121228.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "劳动合同法"
+          ],
+          "required_any_groups": [
+            [
+              "劳动合同法",
+              "劳动合同",
+              "劳动合同法典",
+              "劳动合同法律",
+              "劳动合同条例",
+              "劳动合同规定",
+              "劳动合同办法",
+              "劳动合同合同",
+              "劳动合同指南",
+              "劳动合同申请表",
+              "劳动合同申报表",
+              "劳动合同案例",
+              "劳动合同公报"
+            ],
+            [
+              "劳动争议法",
+              "劳动合同法",
+              "劳动争议",
+              "劳动争议法典",
+              "劳动争议法律",
+              "劳动争议条例",
+              "劳动争议规定",
+              "劳动争议办法",
+              "劳动争议合同",
+              "劳动争议指南",
+              "劳动争议申请表",
+              "劳动争议申报表",
+              "劳动争议案例",
+              "劳动争议公报"
+            ],
+            [
+              "劳动合同",
+              "劳动",
+              "劳动法典",
+              "劳动法律",
+              "劳动法",
+              "劳动条例",
+              "劳动规定",
+              "劳动办法",
+              "劳动指南",
+              "劳动申请表",
+              "劳动申报表",
+              "劳动案例",
+              "劳动公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_006",
+      "case_type": "law_version_numeric",
+      "question": "网络合规检索请精确到《网络安全法》版本日期，答案需出现20251028。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 9.59,
+      "answer": "中华人民共和国网络安全法_20251028.pdf ##1$$",
+      "top_documents": [
+        "中华人民共和国网络安全法_20251028.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "网络安全法"
+          ],
+          "required_any_groups": [
+            [
+              "网络安全法",
+              "网络安全",
+              "网络安全法典",
+              "网络安全法律",
+              "网络安全条例",
+              "网络安全规定",
+              "网络安全办法",
+              "网络安全合同",
+              "网络安全指南",
+              "网络安全申请表",
+              "网络安全申报表",
+              "网络安全案例",
+              "网络安全公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_007",
+      "case_type": "law_version_numeric",
+      "question": "治安处罚依据请精确到文件版本，答案需包含20250627。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 898.21,
+      "answer": "中华人民共和国治安管理处罚法_20250627.pdf ##1$$",
+      "top_documents": [
+        "中华人民共和国治安管理处罚法_20250627.pdf",
+        "行政执法法律法规规章编码规则和数据元.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "【行政许可事项服务指南】基金服务机构注册.pdf",
+        "专利申请受理和审批办事指南.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": []
+        }
+      }
+    },
+    {
+      "id": "resume_gen_008",
+      "case_type": "procedure_table_numeric",
+      "question": "税务行政许可申请对应的表单名称是什么？",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "model",
+      "citation_count": 1,
+      "latency_ms": 14452.78,
+      "answer": "结论：税务行政许可申请表 ##2$$",
+      "top_documents": [
+        "专利申请受理和审批办事指南.pdf",
+        "税务行政许可申请表.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "【行政许可事项服务指南】基金服务机构注册.pdf",
+        "资本项目行政许可事项服务指南.pdf"
+      ],
+      "route_reason": "high_certainty_or_rule_extract:procedure_extract",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": []
+        }
+      }
+    },
+    {
+      "id": "resume_gen_009",
+      "case_type": "procedure_table_numeric",
+      "question": "企业所得税年度申报要填哪份表，请输出完整表名关键词。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 919.5,
+      "answer": "中华人民共和国企业所得税年度纳税申报表 ##1$$",
+      "top_documents": [
+        "中华人民共和国企业所得税年度纳税申报表.pdf",
+        "资本项目行政许可事项服务指南.pdf",
+        "专利申请受理和审批办事指南.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "【行政许可事项服务指南】基金服务机构注册.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:doc_precise",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": []
+        }
+      }
+    },
+    {
+      "id": "resume_gen_010",
+      "case_type": "procedure_guide_text",
+      "question": "云南辖区内基金服务机构注册时，其中的《证券投资基金法》规定了什么？",
+      "expect_abstain": false,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1839.81,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（anchor_missing）##1$$\n缺失信息：缺少目标文档标题锚点: 证券投资基金法\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "【行政许可事项服务指南】基金服务机构注册.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "资本项目行政许可事项服务指南.pdf",
+        "中华人民共和国刑法_20201226.pdf",
+        "中华人民共和国企业所得税年度纳税申报表.pdf"
+      ],
+      "route_reason": "answerability_guard:anchor_missing",
+      "selected_mode": "rule",
+      "fallback_mode": "none",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "证券投资基金法",
+              "证券投资基金",
+              "证券投资基金法典",
+              "证券投资基金法律",
+              "证券投资基金条例",
+              "证券投资基金规定",
+              "证券投资基金办法",
+              "证券投资基金合同",
+              "证券投资基金指南",
+              "证券投资基金申请表",
+              "证券投资基金申报表",
+              "证券投资基金案例",
+              "证券投资基金公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_011",
+      "case_type": "procedure_guide_text",
+      "question": "期货公司告知承诺制事项，答案里需同时出现“告知承诺制”和“办事指南”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 6407.23,
+      "answer": "期货公司行政许可、备案相关证明事项告知承诺制办事指南 ##1$$",
+      "top_documents": [
+        "期货公司行政许可、备案相关证明事项告知承诺制办事指南.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "专利申请受理和审批办事指南.pdf",
+        "【行政许可事项服务指南】基金服务机构注册.pdf",
+        "中华人民共和国企业所得税年度纳税申报表.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "告知承诺制"
+          ],
+          "required_any_groups": []
+        }
+      }
+    },
+    {
+      "id": "resume_gen_012",
+      "case_type": "procedure_guide_text",
+      "question": "专利申请流程文件检索，回答里请命中“专利申请受理和审批办事指南”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 6795.98,
+      "answer": "专利申请受理和审批办事指南 ##1$$",
+      "top_documents": [
+        "专利申请受理和审批办事指南.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "中华人民共和国民法典_20200528.pdf",
+        "中华人民共和国监察法实施条例_20250601.pdf",
+        "期货公司行政许可、备案相关证明事项告知承诺制办事指南.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:procedure_extract",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "专利申请受理和审批办事指南"
+          ],
+          "required_any_groups": [
+            [
+              "专利申请受理和审批办事指南",
+              "专利申请受理和审批",
+              "专利申请受理和审批法典",
+              "专利申请受理和审批法律",
+              "专利申请受理和审批法",
+              "专利申请受理和审批条例",
+              "专利申请受理和审批规定",
+              "专利申请受理和审批办法",
+              "专利申请受理和审批合同",
+              "专利申请受理和审批指南",
+              "专利申请受理和审批申请表",
+              "专利申请受理和审批申报表",
+              "专利申请受理和审批案例",
+              "专利申请受理和审批公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_013",
+      "case_type": "case_id_text",
+      "question": "请回答指导性案例228号的案由关键词，答案需含案例编号与案由。",
+      "expect_abstain": false,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": false,
+      "answer_mode": "model",
+      "citation_count": 1,
+      "latency_ms": 73257.08,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（answer_guard_failed）##1$$\n缺失信息：missing_title_anchor:需含案例\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf",
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例272号：艾某等危险驾驶案.pdf",
+        "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:case_holding",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": false,
+        "failures": [
+          "missing_title_anchor:需含案例"
+        ],
+        "constraints": {
+          "required_all": [
+            "指导性案例228号"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ],
+            [
+              "需含案例",
+              "需含",
+              "需含法典",
+              "需含法律",
+              "需含法",
+              "需含条例",
+              "需含规定",
+              "需含办法",
+              "需含合同",
+              "需含指南",
+              "需含申请表",
+              "需含申报表",
+              "需含公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_014",
+      "case_type": "case_id_text",
+      "question": "请回答指导性案例229号的案由关键词，必须命中“探望权纠纷”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 5238.94,
+      "answer": "指导性案例229号：沙某某诉袁某某探望权纠纷案 ##1$$",
+      "top_documents": [
+        "指导性案例229号：沙某某诉袁某某探望权纠纷案.pdf",
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf",
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例272号：艾某等危险驾驶案.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:case_holding",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "指导性案例229号",
+            "探望权纠纷"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_015",
+      "case_type": "case_id_text",
+      "question": "请回答指导性案例272号对应罪名方向，答案需出现“危险驾驶”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 5601.01,
+      "answer": "指导性案例272号：艾某等危险驾驶案 ##1$$",
+      "top_documents": [
+        "指导性案例272号：艾某等危险驾驶案.pdf",
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf",
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例229号：沙某某诉袁某某探望权纠纷案.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:case_holding",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "指导性案例272号",
+            "危险驾驶"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_016",
+      "case_type": "case_id_text",
+      "question": "请回答指导性案例276号的纠纷性质，答案里需出现“发明专利权无效行政纠纷”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 6246.91,
+      "answer": "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案 ##1$$",
+      "top_documents": [
+        "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案.pdf",
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf",
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例272号：艾某等危险驾驶案.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:case_holding",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "指导性案例276号",
+            "发明专利权无效行政纠纷"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_017",
+      "case_type": "case_id_text",
+      "question": "请回答指导性案例278号的责任类型，答案需命中“恶意提起知识产权诉讼损害责任纠纷”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 6694.44,
+      "answer": "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院 ##1$$",
+      "top_documents": [
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案.pdf",
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf",
+        "全国人民代表大会常务委员会公报2023_6_npc.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:case_holding",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "指导性案例278号",
+            "恶意提起知识产权诉讼损害责任纠纷"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_018",
+      "case_type": "case_id_text",
+      "question": "请回答指导性案例279号属于哪类著作权争议，答案需出现“计算机软件著作权”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 5349.93,
+      "answer": "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院 ##1$$",
+      "top_documents": [
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf",
+        "指导性案例272号：艾某等危险驾驶案.pdf",
+        "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案.pdf"
+      ],
+      "route_reason": "high_certainty_or_rule_extract:case_holding",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "指导性案例279号",
+            "计算机软件著作权"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_019",
+      "case_type": "contract_version_numeric",
+      "question": "城镇房屋租赁合同对应的是哪一年出版的？",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1256.78,
+      "answer": "城镇房屋租赁合同（市场监管总局2025版）_2340996b ##1$$",
+      "top_documents": [
+        "城镇房屋租赁合同（市场监管总局2025版）_2340996b.pdf",
+        "中华人民共和国民法典_20200528.pdf",
+        "北京市共有产权住房现房买卖合同（北京市2023版）_8b3d79f0.pdf",
+        "中华人民共和国企业所得税年度纳税申报表.pdf",
+        "海南自由贸易港安居房建设和管理若干规定_20260101.pdf"
+      ],
+      "route_reason": "high_certainty_or_rule_extract:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "城镇房屋租赁合同",
+              "城镇房屋租赁",
+              "城镇房屋租赁法典",
+              "城镇房屋租赁法律",
+              "城镇房屋租赁法",
+              "城镇房屋租赁条例",
+              "城镇房屋租赁规定",
+              "城镇房屋租赁办法",
+              "城镇房屋租赁指南",
+              "城镇房屋租赁申请表",
+              "城镇房屋租赁申报表",
+              "城镇房屋租赁案例",
+              "城镇房屋租赁公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_020",
+      "case_type": "contract_version_numeric",
+      "question": "北京共有产权住房现房买卖合同请给出版本数字，答案要出现“北京市2023版”。",
+      "expect_abstain": false,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": false,
+      "answer_mode": "model",
+      "citation_count": 1,
+      "latency_ms": 21739.16,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（answer_guard_failed）##1$$\n缺失信息：missing_title_anchor:北京共有产权住房现房买卖合同\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "北京市共有产权住房现房买卖合同（北京市2023版）_8b3d79f0.pdf",
+        "专利申请受理和审批办事指南.pdf",
+        "海南自由贸易港安居房建设和管理若干规定_20260101.pdf",
+        "行政执法法律法规规章编码规则和数据元.pdf",
+        "中华人民共和国民法典_20200528.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": false,
+        "failures": [
+          "missing_title_anchor:北京共有产权住房现房买卖合同"
+        ],
+        "constraints": {
+          "required_all": [
+            "2023版",
+            "北京市2023版"
+          ],
+          "required_any_groups": [
+            [
+              "北京共有产权住房现房买卖合同",
+              "北京共有产权住房现房买卖",
+              "北京共有产权住房现房买卖法典",
+              "北京共有产权住房现房买卖法律",
+              "北京共有产权住房现房买卖法",
+              "北京共有产权住房现房买卖条例",
+              "北京共有产权住房现房买卖规定",
+              "北京共有产权住房现房买卖办法",
+              "北京共有产权住房现房买卖指南",
+              "北京共有产权住房现房买卖申请表",
+              "北京共有产权住房现房买卖申报表",
+              "北京共有产权住房现房买卖案例",
+              "北京共有产权住房现房买卖公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_021",
+      "case_type": "contract_version_numeric",
+      "question": "北京市小型工程施工合同模板请回答具体版次，需命中“2023版”。",
+      "expect_abstain": false,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": false,
+      "answer_mode": "model",
+      "citation_count": 1,
+      "latency_ms": 99393.86,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（answer_guard_failed）##1$$\n缺失信息：missing_title_anchor:北京市小型工程施工合同\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "北京市房屋建筑与市政基础设施限额以下小型工程施工合同（北京市2023版）_b285aa3d.pdf",
+        "北京市共有产权住房现房买卖合同（北京市2023版）_8b3d79f0.pdf",
+        "专利申请受理和审批办事指南.pdf",
+        "珠某峰景小区业主委员会诉康某物业服务有限公司、康某物业服务有限公司北京分公司物业服务合同纠纷案.pdf",
+        "中华人民共和国民法典_20200528.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": false,
+        "failures": [
+          "missing_title_anchor:北京市小型工程施工合同"
+        ],
+        "constraints": {
+          "required_all": [
+            "2023版"
+          ],
+          "required_any_groups": [
+            [
+              "北京市小型工程施工合同",
+              "北京小型工程施工合同",
+              "北京市小型工程施工",
+              "北京市小型工程施工法典",
+              "北京市小型工程施工法律",
+              "北京市小型工程施工法",
+              "北京市小型工程施工条例",
+              "北京市小型工程施工规定",
+              "北京市小型工程施工办法",
+              "北京市小型工程施工指南",
+              "北京市小型工程施工申请表",
+              "北京市小型工程施工申报表",
+              "北京市小型工程施工案例",
+              "北京市小型工程施工公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_022",
+      "case_type": "contract_version_numeric",
+      "question": "科技类校外培训服务合同请精确到版次，答案需出现“2024版”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1693.06,
+      "answer": "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf ##1$$",
+      "top_documents": [
+        "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf",
+        "甘肃省养老机构服务合同（甘肃省2024版）_8377c6f9.pdf",
+        "【行政许可事项服务指南】基金服务机构注册.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "珠海经济特区民营经济促进条例_20251230.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2024版"
+          ],
+          "required_any_groups": [
+            [
+              "科技类校外培训服务合同",
+              "科技类校外培训服务",
+              "科技类校外培训服务法典",
+              "科技类校外培训服务法律",
+              "科技类校外培训服务法",
+              "科技类校外培训服务条例",
+              "科技类校外培训服务规定",
+              "科技类校外培训服务办法",
+              "科技类校外培训服务指南",
+              "科技类校外培训服务申请表",
+              "科技类校外培训服务申报表",
+              "科技类校外培训服务案例",
+              "科技类校外培训服务公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_023",
+      "case_type": "contract_version_numeric",
+      "question": "甘肃省养老机构服务合同请回答版本信息，需命中“甘肃省2024版”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1600.63,
+      "answer": "甘肃省养老机构服务合同（甘肃省2024版）_8377c6f9.pdf ##1$$",
+      "top_documents": [
+        "甘肃省养老机构服务合同（甘肃省2024版）_8377c6f9.pdf",
+        "中华人民共和国增值税法实施条例_20251225.pdf",
+        "中华人民共和国企业所得税年度纳税申报表.pdf",
+        "全国人民代表大会常务委员会公报2021_4_npc.pdf",
+        "中华人民共和国增值税法_20241225.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2024版",
+            "甘肃省2024版"
+          ],
+          "required_any_groups": [
+            [
+              "甘肃省养老机构服务合同",
+              "甘肃省养老机构服务",
+              "甘肃省养老机构服务法典",
+              "甘肃省养老机构服务法律",
+              "甘肃省养老机构服务法",
+              "甘肃省养老机构服务条例",
+              "甘肃省养老机构服务规定",
+              "甘肃省养老机构服务办法",
+              "甘肃省养老机构服务指南",
+              "甘肃省养老机构服务申请表",
+              "甘肃省养老机构服务申报表",
+              "甘肃省养老机构服务案例",
+              "甘肃省养老机构服务公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_024",
+      "case_type": "contract_version_numeric",
+      "question": "研学旅游合同请回答联合发布单位和版次，答案需出现“2026版”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1751.38,
+      "answer": "研学旅游合同（文化和旅游部、市场监管总局2026版）_ea53524e.pdf ##1$$",
+      "top_documents": [
+        "研学旅游合同（文化和旅游部、市场监管总局2026版）_ea53524e.pdf",
+        "珠海经济特区民营经济促进条例_20251230.pdf",
+        "中华人民共和国企业所得税年度纳税申报表.pdf",
+        "中华人民共和国民法典_20200528.pdf",
+        "专利申请受理和审批办事指南.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:version_effect",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2026版"
+          ],
+          "required_any_groups": [
+            [
+              "研学旅游合同",
+              "研学旅游",
+              "研学旅游法典",
+              "研学旅游法律",
+              "研学旅游法",
+              "研学旅游条例",
+              "研学旅游规定",
+              "研学旅游办法",
+              "研学旅游指南",
+              "研学旅游申请表",
+              "研学旅游申报表",
+              "研学旅游案例",
+              "研学旅游公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_025",
+      "case_type": "version_pair_numeric",
+      "question": "自然保护区条例请给出新旧两个可比对文件，答案必须同时命中基础版与20260203版。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 2,
+      "latency_ms": 9.48,
+      "answer": "中华人民共和国自然保护区条例_20260203.pdf ##2$$\n中华人民共和国自然保护区条例.pdf ##1$$",
+      "top_documents": [
+        "中华人民共和国自然保护区条例.pdf",
+        "中华人民共和国自然保护区条例_20260203.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "自然保护区条例",
+              "自然保护区",
+              "自然保护区法典",
+              "自然保护区法律",
+              "自然保护区法",
+              "自然保护区规定",
+              "自然保护区办法",
+              "自然保护区合同",
+              "自然保护区指南",
+              "自然保护区申请表",
+              "自然保护区申报表",
+              "自然保护区案例",
+              "自然保护区公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_026",
+      "case_type": "version_pair_numeric",
+      "question": "增值税法体系检索时，请同时给“法律+实施条例”两份文档名。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "model",
+      "citation_count": 2,
+      "latency_ms": 72176.36,
+      "answer": "中华人民共和国增值税法实施条例_20251225.pdf ##1$$\n中华人民共和国标准化法实施条例.pdf ##2$$",
+      "top_documents": [
+        "中华人民共和国增值税法实施条例_20251225.pdf",
+        "中华人民共和国标准化法实施条例.pdf",
+        "中华人民共和国监察法实施条例_20250601.pdf",
+        "中华人民共和国增值税法_20241225.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "增值税法",
+              "增值税",
+              "增值税法典",
+              "增值税法律",
+              "增值税条例",
+              "增值税规定",
+              "增值税办法",
+              "增值税合同",
+              "增值税指南",
+              "增值税申请表",
+              "增值税申报表",
+              "增值税案例",
+              "增值税公报"
+            ],
+            [
+              "实施条例",
+              "实施",
+              "实施法典",
+              "实施法律",
+              "实施法",
+              "实施规定",
+              "实施办法",
+              "实施合同",
+              "实施指南",
+              "实施申请表",
+              "实施申报表",
+              "实施案例",
+              "实施公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_027",
+      "case_type": "version_pair_numeric",
+      "question": "监察规范检索时，请同时返回监察法与实施条例，答案要有两个文件名。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 2,
+      "latency_ms": 7.24,
+      "answer": "中华人民共和国监察法_20241225.pdf ##1$$\n中华人民共和国监察法实施条例_20250601.pdf ##2$$",
+      "top_documents": [
+        "中华人民共和国监察法_20241225.pdf",
+        "中华人民共和国监察法实施条例_20250601.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "监察法",
+              "监察",
+              "监察法典",
+              "监察法律",
+              "监察条例",
+              "监察规定",
+              "监察办法",
+              "监察合同",
+              "监察指南",
+              "监察申请表",
+              "监察申报表",
+              "监察案例",
+              "监察公报"
+            ],
+            [
+              "实施条例",
+              "实施",
+              "实施法典",
+              "实施法律",
+              "实施法",
+              "实施规定",
+              "实施办法",
+              "实施合同",
+              "实施指南",
+              "实施申请表",
+              "实施申报表",
+              "实施案例",
+              "实施公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_028",
+      "case_type": "comparison_pair_text",
+      "question": "基层自治组织并列比对时，请同时给出村委会组织法和居委会组织法。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 2,
+      "latency_ms": 3350.11,
+      "answer": "中华人民共和国城市居民委员会组织法_20251028.pdf ##2$$\n中华人民共和国村民委员会组织法_20251028.pdf ##4$$",
+      "top_documents": [
+        "全国人民代表大会常务委员会公报2023_3_npc.pdf",
+        "中华人民共和国城市居民委员会组织法_20251028.pdf",
+        "中华人民共和国民法典_20200528.pdf",
+        "中华人民共和国村民委员会组织法_20251028.pdf",
+        "专利申请受理和审批办事指南.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "村委会组织法",
+              "村民委员会组织法",
+              "村委会组织",
+              "村委会组织法典",
+              "村委会组织法律",
+              "村委会组织条例",
+              "村委会组织规定",
+              "村委会组织办法",
+              "村委会组织合同",
+              "村委会组织指南",
+              "村委会组织申请表",
+              "村委会组织申报表",
+              "村委会组织案例",
+              "村委会组织公报"
+            ],
+            [
+              "居委会组织法",
+              "城市居民委员会组织法",
+              "居委会组织",
+              "居委会组织法典",
+              "居委会组织法律",
+              "居委会组织条例",
+              "居委会组织规定",
+              "居委会组织办法",
+              "居委会组织合同",
+              "居委会组织指南",
+              "居委会组织申请表",
+              "居委会组织申报表",
+              "居委会组织案例",
+              "居委会组织公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_029",
+      "case_type": "gazette_pair_numeric",
+      "question": "请并列返回全国人大常委会公报2024年第1期和第4期，答案需命中“2024_1”和“2024_4”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 2,
+      "latency_ms": 11.43,
+      "answer": "全国人民代表大会常务委员会公报2024_1_npc.pdf ##1$$\n全国人民代表大会常务委员会公报2024_4_npc.pdf ##2$$",
+      "top_documents": [
+        "全国人民代表大会常务委员会公报2024_1_npc.pdf",
+        "全国人民代表大会常务委员会公报2024_4_npc.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2024年",
+            "2024_1",
+            "2024_4"
+          ],
+          "required_any_groups": [
+            [
+              "全国人大常委会公报",
+              "全国人民代表大会常务委员会公报",
+              "全国人大常委会",
+              "全国人大常委会法典",
+              "全国人大常委会法律",
+              "全国人大常委会法",
+              "全国人大常委会条例",
+              "全国人大常委会规定",
+              "全国人大常委会办法",
+              "全国人大常委会合同",
+              "全国人大常委会指南",
+              "全国人大常委会申请表",
+              "全国人大常委会申报表",
+              "全国人大常委会案例"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_030",
+      "case_type": "gazette_pair_numeric",
+      "question": "请并列返回全国人大常委会公报2022年第1期和第2期，答案需含“2022_1”“2022_2”。",
+      "expect_abstain": false,
+      "answer_hit": true,
+      "citation_hit": true,
+      "grounded_hit": true,
+      "abstain_hit": false,
+      "answer_mode": "rule",
+      "citation_count": 2,
+      "latency_ms": 11.65,
+      "answer": "全国人民代表大会常务委员会公报2022_1_npc.pdf ##1$$\n全国人民代表大会常务委员会公报2022_2_npc.pdf ##2$$",
+      "top_documents": [
+        "全国人民代表大会常务委员会公报2022_1_npc.pdf",
+        "全国人民代表大会常务委员会公报2022_2_npc.pdf"
+      ],
+      "route_reason": "rule_first_high_certainty:comparison",
+      "selected_mode": "rule",
+      "fallback_mode": "model",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2022年",
+            "2022_1",
+            "2022_2"
+          ],
+          "required_any_groups": [
+            [
+              "全国人大常委会公报",
+              "全国人民代表大会常务委员会公报",
+              "全国人大常委会",
+              "全国人大常委会法典",
+              "全国人大常委会法律",
+              "全国人大常委会法",
+              "全国人大常委会条例",
+              "全国人大常委会规定",
+              "全国人大常委会办法",
+              "全国人大常委会合同",
+              "全国人大常委会指南",
+              "全国人大常委会申请表",
+              "全国人大常委会申报表",
+              "全国人大常委会案例"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_031",
+      "case_type": "abstain_doc",
+      "question": "请提供《中华人民共和国公司法》2024年修订版全文并给具体条号。",
+      "expect_abstain": true,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": true,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 4637.39,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（anchor_missing）##1$$\n缺失信息：缺少目标文档标题锚点: 中华人民共和国公司法\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "罗某忠等人骗取出口退税案.pdf",
+        "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf",
+        "珠某峰景小区业主委员会诉康某物业服务有限公司、康某物业服务有限公司北京分公司物业服务合同纠纷案.pdf",
+        "中华人民共和国增值税法_20241225.pdf",
+        "罗某忠等人骗取出口退税案.pdf"
+      ],
+      "route_reason": "answerability_guard:anchor_missing",
+      "selected_mode": "rule",
+      "fallback_mode": "none",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2024年"
+          ],
+          "required_any_groups": [
+            [
+              "中华人民共和国公司法",
+              "公司",
+              "公司法典",
+              "公司法律",
+              "公司法",
+              "公司条例",
+              "公司规定",
+              "公司办法",
+              "公司合同",
+              "公司指南",
+              "公司申请表",
+              "公司申报表",
+              "公司案例",
+              "公司公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_032",
+      "case_type": "abstain_doc",
+      "question": "请给《中华人民共和国个人信息保护法》完整版，并定位到“第十三条”原文。",
+      "expect_abstain": true,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": true,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 2837.22,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（anchor_missing）##1$$\n缺失信息：缺少目标文档标题锚点: 中华人民共和国个人信息保护法\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "中华人民共和国网络安全法_20251028.pdf",
+        "研学旅游合同（文化和旅游部、市场监管总局2026版）_ea53524e.pdf",
+        "全国人民代表大会常务委员会公报2024_4_npc.pdf",
+        "中华人民共和国刑法_20201226.pdf",
+        "北京市科技类校外培训服务合同（北京市2024版）_e35afc72.pdf"
+      ],
+      "route_reason": "answerability_guard:anchor_missing",
+      "selected_mode": "rule",
+      "fallback_mode": "none",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "第十三条"
+          ],
+          "required_any_groups": [
+            [
+              "中华人民共和国个人信息保护法",
+              "个人信息保护",
+              "个人信息保护法典",
+              "个人信息保护法律",
+              "个人信息保护法",
+              "个人信息保护条例",
+              "个人信息保护规定",
+              "个人信息保护办法",
+              "个人信息保护合同",
+              "个人信息保护指南",
+              "个人信息保护申请表",
+              "个人信息保护申报表",
+              "个人信息保护案例",
+              "个人信息保护公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_033",
+      "case_type": "abstain_case",
+      "question": "有没有指导性案例300号？如果有请给案号和裁判要点原文。",
+      "expect_abstain": true,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": true,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 5044.16,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（existence_not_proved）##1$$\n缺失信息：缺少案例锚点: 指导性案例300号\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案.pdf",
+        "指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例272号：艾某等危险驾驶案.pdf",
+        "指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案 - 中华人民共和国最高人民法院.pdf",
+        "指导性案例228号：张某诉李某、刘某监护权纠纷案.pdf"
+      ],
+      "route_reason": "answerability_guard:existence_not_proved",
+      "selected_mode": "rule",
+      "fallback_mode": "none",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "指导性案例300号"
+          ],
+          "required_any_groups": [
+            [
+              "指导性案例",
+              "指导性",
+              "指导性法典",
+              "指导性法律",
+              "指导性法",
+              "指导性条例",
+              "指导性规定",
+              "指导性办法",
+              "指导性合同",
+              "指导性指南",
+              "指导性申请表",
+              "指导性申报表",
+              "指导性公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_034",
+      "case_type": "abstain_procedure",
+      "question": "请给深圳市科技项目行政许可办事指南，并指出具体表单名称。",
+      "expect_abstain": true,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": true,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 6539.93,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（anchor_missing）##1$$\n缺失信息：缺少目标文档标题锚点: 深圳市科技项目行政许可办事指南\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "专利申请受理和审批办事指南.pdf",
+        "中华人民共和国企业所得税年度纳税申报表.pdf",
+        "期货公司行政许可、备案相关证明事项告知承诺制办事指南.pdf",
+        "浙江证监局行政许可目录指引.pdf",
+        "资本项目行政许可事项服务指南.pdf"
+      ],
+      "route_reason": "answerability_guard:anchor_missing",
+      "selected_mode": "rule",
+      "fallback_mode": "none",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [],
+          "required_any_groups": [
+            [
+              "深圳市科技项目行政许可办事指南",
+              "深圳科技项目行政许可办事指南",
+              "深圳市科技项目行政许可",
+              "深圳市科技项目行政许可法典",
+              "深圳市科技项目行政许可法律",
+              "深圳市科技项目行政许可法",
+              "深圳市科技项目行政许可条例",
+              "深圳市科技项目行政许可规定",
+              "深圳市科技项目行政许可办法",
+              "深圳市科技项目行政许可合同",
+              "深圳市科技项目行政许可指南",
+              "深圳市科技项目行政许可申请表",
+              "深圳市科技项目行政许可申报表",
+              "深圳市科技项目行政许可案例",
+              "深圳市科技项目行政许可公报"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "resume_gen_035",
+      "case_type": "abstain_contract",
+      "question": "请提供上海市居住房屋租赁合同（2026版）示范文本，并标明发布单位。",
+      "expect_abstain": true,
+      "answer_hit": false,
+      "citation_hit": true,
+      "grounded_hit": false,
+      "abstain_hit": true,
+      "answer_mode": "rule",
+      "citation_count": 1,
+      "latency_ms": 1275.42,
+      "answer": "结论：无法回答，无法依据当前语料作答。\n原因：缺少目标实体对应证据（anchor_missing）##1$$\n缺失信息：缺少目标文档标题锚点: 上海市居住房屋租赁合同\n建议：请补充准确文档名、版本日期或案例编号。",
+      "top_documents": [
+        "甘肃省养老机构服务合同（甘肃省2024版）_8377c6f9.pdf",
+        "北京市共有产权住房现房买卖合同（北京市2023版）_8b3d79f0.pdf",
+        "中华人民共和国民法典_20200528.pdf",
+        "城镇房屋租赁合同（市场监管总局2025版）_2340996b.pdf",
+        "珠海经济特区民营经济促进条例_20251230.pdf"
+      ],
+      "route_reason": "answerability_guard:anchor_missing",
+      "selected_mode": "rule",
+      "fallback_mode": "none",
+      "answer_guard": {
+        "passed": true,
+        "failures": [],
+        "constraints": {
+          "required_all": [
+            "2026版"
+          ],
+          "required_any_groups": [
+            [
+              "上海市居住房屋租赁合同",
+              "上海居住房屋租赁合同",
+              "上海市居住房屋租赁",
+              "上海市居住房屋租赁法典",
+              "上海市居住房屋租赁法律",
+              "上海市居住房屋租赁法",
+              "上海市居住房屋租赁条例",
+              "上海市居住房屋租赁规定",
+              "上海市居住房屋租赁办法",
+              "上海市居住房屋租赁指南",
+              "上海市居住房屋租赁申请表",
+              "上海市居住房屋租赁申报表",
+              "上海市居住房屋租赁案例",
+              "上海市居住房屋租赁公报"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "config_snapshot": {
+    "LEGAL_TERM_NORMALIZATION_ENABLED": null,
+    "RETRIEVAL_ROUTE_MODE": null,
+    "ENABLE_RETRIEVAL_TRACE": null,
+    "ENABLE_FALLBACK_ROUTE": null,
+    "ENABLE_LEGAL_METADATA_ROUTE": null,
+    "ENABLE_LEGAL_METADATA_SCORING": null,
+    "ENABLE_LEGAL_METADATA_HARD_FILTER": null,
+    "STRICT_CITATION_BINDING": null,
+    "CONFLICT_ABSTAIN_ENABLED": null,
+    "CHAT_COMPLETION_TIMEOUT_SECONDS": "120",
+    "GENERATION_EVAL_MAX_ATTEMPTS": "5",
+    "GENERATION_EVAL_RETRY_INITIAL_SECONDS": "10.0",
+    "GENERATION_EVAL_RETRY_MAX_SECONDS": "120.0"
+  },
+  "generated_at": "2026-04-11 10:57:59"
+}

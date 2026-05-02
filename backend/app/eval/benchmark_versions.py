@@ -1,0 +1,5 @@
+CORPUS_VERSION = "corpus_v1"
+CHUNK_VERSION = "chunk_v3"
+RETRIEVER_VERSION = "retriever_v6"
+ANSWER_RULE_VERSION = "answer_rule_v5"
+EVAL_SCRIPT_VERSION = "eval_v3"

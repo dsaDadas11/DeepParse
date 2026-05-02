@@ -1,0 +1,12 @@
+backend/.env
+backend/key.txt
+frontend/.env
+key.txt
+
+backend/app/service/core/storage/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+
+frontend/node_modules/
+frontend/dist/
+frontend/*.log

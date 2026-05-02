@@ -1,0 +1,54 @@
+.com-sender {
+  background-color: var(--app-panel);
+  border: 1px solid var(--app-border);
+  border-radius: 24px;
+  box-shadow: var(--app-shadow);
+  backdrop-filter: blur(14px);
+
+  .ant-input {
+    background: transparent;
+    border: none;
+    padding: 18px 20px 8px;
+    box-shadow: none;
+    color: var(--app-main-text);
+  }
+
+  .com-sender__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px 16px;
+    padding-top: 0;
+
+    .com-sender__action--contract {
+      min-width: 108px;
+      max-width: 200px;
+      font-size: 16px;
+      color: var(--app-main-text);
+      overflow: hidden;
+
+      .document-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .com-sender__action--send {
+      min-width: 96px;
+      height: 42px;
+      font-weight: 600;
+      font-size: 15px;
+      background: #202123 !important;
+      border: none;
+      color: #fff;
+      box-shadow: none;
+
+      img {
+        width: 7px;
+        height: 10px;
+        opacity: 0.92;
+      }
+    }
+  }
+}
