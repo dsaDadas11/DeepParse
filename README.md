@@ -89,8 +89,4 @@ The easiest way to get the entire application running is by using Docker Compose
     *   `/app/service` - Business logic and document operations.
     *   `/app/database` - Database connections and operations.
 *   `/frontend` - Contains the React web application.
-    *   `/src` - Source code, React components, state management (Valtio), and routing.
-
-## 📝 License
-
-[Specify License Here]
+    * `/src` - Source code, React components, state management (Valtio), 和 routing.
